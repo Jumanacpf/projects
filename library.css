@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSjIZ0brWUub6-AJNW3VxDu17GU41CQDVTf7qQgfXqQoIyuqMgfD-IlJvmQs74-z6qi0&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d-block{
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 50px;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.icon{
+    margin: 20px;
+    padding-left: 50px;
+}
