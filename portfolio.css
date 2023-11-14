@@ -1,0 +1,55 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3000px;
+}
+.hi{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 60px;
+    color: rgb(7, 7, 126);
+}
+.name{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(7, 7, 126);
+}
+.work{
+    text-align: center;
+    color: rgb(7, 7, 126);
+}
+.container{
+    margin-top: 300px;
+    color: rgb(7, 7, 126);
+}
+.btn{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color:  rgb(7, 7, 126);
+}
+form{
+    text-align: center;
+    margin-top: 400px;
+    color: rgb(7, 7, 126);
+   
+}
+.form-control{
+    margin-left: 350px;
+}
+.submit{
+    margin-top: 50px;
+    width: 150px;
+    margin-left: 600px;
+    background-color:  rgb(7, 7, 126);
+    color: aliceblue;
+}
+.submit:hover{
+    background-color: blue;
+}
+.icon{
+    padding-left: 1000px;
+}
+.navbar{
+    padding-left: 1200px;
+}
