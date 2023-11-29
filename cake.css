@@ -1,0 +1,26 @@
+.cakes{
+    background-color: pink;
+}
+.juices{
+    background-color: aquamarine;
+}
+.ice{
+    background-color: greenyellow;
+}
+div{
+    width: 250px;
+    height: 250px;
+    border: 1px;
+    border-style: solid;
+    float: left;
+    margin: 20px;
+    /* padding: 5px; */
+}
+img{
+    /* padding-left: 10px; */
+    width: 250px;
+    height: 250px;
+}
+h2{
+    text-align: center;
+}
