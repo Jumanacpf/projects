@@ -1,0 +1,36 @@
+body{
+    background-color: mediumvioletred;
+}
+h1{
+    text-align: center;
+    color: violet;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: 3px 3px;
+}
+form{
+    border: 5px violet double;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+}
+input{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.submit{
+    background-color: violet;
+    border-radius: 5px;
+    /*box-shadow: 1px 1px 10px 1px;*/
+}
+.submit:hover{
+    background-color: mediumvioletred;
+
+}
+label{
+    color: violet;
+}

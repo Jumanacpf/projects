@@ -1,0 +1,17 @@
+{% extends 'home.html' %}
+
+{% block content %}
+{% load static %}
+
+<form method="post" action="balance">
+    {% csrf_token %}
+    <h1>Account Balance</h1>
+    <label> Account Number :</label>
+    <input type="text" name="accno"><br><br>
+    <input type="submit" class="submit" value="check balance"><br><br>
+    <b>Balance : {{data}}</b>
+</form>
+<link rel="stylesheet" href="{% static 'css/balance.css' %} ">
+
+
+{% endblock %}}

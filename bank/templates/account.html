@@ -1,0 +1,22 @@
+{% extends 'home.html' %}
+
+
+{% block content %}
+{% load static %}
+
+<form method="post" action="account"><br>
+    {%csrf_token %}
+<h1>CREATE ACCOUNT</h1>
+<label>Account No : </label>
+<input type="text" name="account"><br><br>
+<label>Name : </label>
+<input type="text" name="name"><br><br>
+<label>Email : </label>
+<input type="email" name="email"><br><br>
+<label>Amount : </label>
+<input type="text" name="amount"><br><br><br>
+<input type="submit" class="submit" value="create">
+</form>
+<link rel="stylesheet" href="{% static 'css/account.css' %} ">
+{% endblock %}
+
